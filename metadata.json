@@ -1,0 +1,35 @@
+{
+    "feature_columns": [
+        "CreditScore",
+        "Geography",
+        "Gender",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "HasCrCard",
+        "IsActiveMember",
+        "Exited"
+    ],
+    "numeric_columns": [
+        "CreditScore",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "HasCrCard",
+        "IsActiveMember",
+        "Exited"
+    ],
+    "categorical_columns": [
+        "Geography",
+        "Gender"
+    ],
+    "metrics": {
+        "mae": 49830.75390625,
+        "rmse": 57542.965095657004,
+        "r2": -0.003010869026184082
+    },
+    "target": "EstimatedSalary",
+    "random_state": 42
+}
